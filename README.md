@@ -10,21 +10,21 @@ The model code has been run with GNA_WASP_F2_emissions with the following physic
 5. Southern Ocean subduction fraction (delta)
 
 When terrestrial carbon dynamics are turned ON, the values for the following are set:
-a. The CO2 fertilization coefficient (gamma_co2) to 0.5
-b. The linear dependence of NPP with temperature (dNPP_dT) to -2 
-c. The linear dependence of soil respiration with temperature (dtau_dT) to -0.5
+1. The CO2 fertilization coefficient (gamma_co2) to 0.5
+2. The linear dependence of NPP with temperature (dNPP_dT) to -2 
+3. The linear dependence of soil respiration with temperature (dtau_dT) to -0.5
 
-When terrestrial carbon dynamics are turned OFF, the values for a-c are set to 0.
+When terrestrial carbon dynamics are turned OFF, the values for gamma_co2, dNPP_dT, and dtau_dT are set to 0.
 ********************************************************************************
 ********************************************************************************
 I save the model output in the following filename style: numbers following d, t, and l are values for delta, tau, and lambda (times 10 or 100 or 1000 as I did not name everything the same, apologies!)
 
 Terrestrial dynamics OFF:
-g2_rcp85_ctrl_d30_t120_l06.mat --> control run
-g2_rcp85_2w2000_d30_t120_l06.mat --> EW-FAST run
-g2_rcp85_2w2000_d30_t120_l06_half_rate.mat --> EW-SLOW run
+1. g2_rcp85_ctrl_d30_t120_l06.mat --> control run
+2. g2_rcp85_2w2000_d30_t120_l06.mat --> EW-FAST run
+3. g2_rcp85_2w2000_d30_t120_l06_half_rate.mat --> EW-SLOW run
 
 Terrestrial dynamics ON:
-terr_r85l08t08d05_ctrl.mat --> control run
-terr_r85l08t08d05_ewf.mat --> EW-FAST run
-terr_r85l08t08d05_ews.mat --> EW-SLOW run
+1. terr_r85l08t08d05_ctrl.mat --> control run
+2. terr_r85l08t08d05_ewf.mat --> EW-FAST run
+3. terr_r85l08t08d05_ews.mat --> EW-SLOW run
