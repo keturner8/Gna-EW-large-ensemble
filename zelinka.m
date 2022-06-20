@@ -1,3 +1,7 @@
+%% Script to create figure of CMIP5 and CMIP6 climate feedback parameters 
+%% according to the data found in Zelinka et al. (2019). 
+%% This figure is provided in the manuscript appendix
+
 % climate feedback parameters for cmip5 vs cmip6 models
 lambda_cmip5 = -1*[0.76 0.81 0.92 1.18 1.14 0.64 1.03 0.84 0.91 0.76 1.23 ...
     1.37 1.66 1.76 0.63 0.75 0.80 1.02 0.92 1.53 1.13 1.19 1.23 1.22 1.11 ...
